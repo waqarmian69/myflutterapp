@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myflutterapp/constant_file.dart';
 import 'constant_file.dart';
 import 'input_page.dart';
 
@@ -13,6 +14,7 @@ class BMICalculator extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         primaryColor: deActiveColor,
         scaffoldBackgroundColor:activeColor,
+        textSelectionColor: Colors.black,
       ),
     );
   }
